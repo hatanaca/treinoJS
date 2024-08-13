@@ -1,3 +1,5 @@
+
+
 let doce = 5;
 
 console.log(doce);
@@ -13,4 +15,5 @@ bar();
 let exemL = "variable with local scope";
 var exemV = "variable with function scope";
 const exempC = "variable with unmutable value";
-
+console.log(testingEscope);
+var testingEscope = "Hosting push functions and variables declarations to the top but not the value";
