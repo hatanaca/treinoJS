@@ -2,12 +2,12 @@ console.log(teste1);
 var teste1 = 0;
 console.log(teste1);
 
-function nometeste() {
-	window.testGlobal = 5;
+var skill = "Javascript";
 
-	var teste2 = 0;
-	var teste3 = 0;
+function exemplo() {
+	//hosting skill before console.log...
+	console.log(skill);///undefined
+	var skill = "Java";
+	console.log(skill);///Java
 }
-
-console.log(testGlobal);
-
+exemplo();
